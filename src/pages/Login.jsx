@@ -4,6 +4,7 @@ import { auth, db } from "../firebaseConfig";
 import { Link, useNavigate } from "react-router-dom";
 import { doc, getDoc } from "firebase/firestore";
 
+
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -65,7 +66,6 @@ const Login = () => {
             Sign up
           </Link>
         </p>
-        
       </div>
     </div>
   );
